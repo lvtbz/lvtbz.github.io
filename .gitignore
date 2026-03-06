@@ -1,0 +1,11 @@
+# 屏蔽编辑器产生的历史归档
+.Archive/
+*.Archive/
+
+# 屏蔽 Mac 系统产生的垃圾文件 (如果你或者主题带了的话)
+.DS_Store
+
+# 屏蔽 Hugo 每次生成的临时文件 (这些不需要传到网上，云端会自动生成)
+public/
+resources/
+.hugo_build.lock
