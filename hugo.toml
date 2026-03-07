@@ -10,5 +10,6 @@ description = '只是个存档的地方'
 defaultTheme = "auto" # 自动跟随系统切换深色/浅色模式
 ShowReadingTime = true # 显示阅读需要几分钟
 ShowShareButtons = false # 显示分享按钮
+comments = true
 
 ignoreFiles = ["\\.Archive\\/"]
