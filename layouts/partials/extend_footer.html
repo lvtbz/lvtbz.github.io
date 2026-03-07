@@ -1,0 +1,3 @@
+{{- if and .IsPage (ne .Params.comments false) }}
+  {{- partial "comments.html" . }}
+{{- end }}
