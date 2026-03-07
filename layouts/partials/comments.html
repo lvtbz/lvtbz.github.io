@@ -1,8 +1,9 @@
 <div id="cusdis_thread"
   data-host="https://cusdis.com"
   data-app-id="b56e4d25-96e2-4027-a930-40831caa6189"
-  data-page-id="{{ PAGE_ID }}"
-  data-page-url="{{ PAGE_URL }}"
-  data-page-title="{{ PAGE_TITLE }}"
-></div>
+  data-page-id="{{ .RelPermalink }}"
+  data-page-url="{{ .Permalink }}"
+  data-page-title="{{ .Title }}"
+>
+</div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
