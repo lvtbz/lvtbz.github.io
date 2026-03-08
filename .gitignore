@@ -9,3 +9,6 @@
 public/
 resources/
 .hugo_build.lock
+
+# 屏蔽本地一键上传脚本
+deploy.bat
