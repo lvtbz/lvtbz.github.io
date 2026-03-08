@@ -20,3 +20,7 @@ ignoreFiles = ["\\.Archive\\/"]
 name = "标签"
 url = "/tags/"
 weight = 10
+
+[taxonomies]
+tag = "tags"
+category = "categories"
