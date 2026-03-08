@@ -92,9 +92,10 @@
                     {{- end }}
                 {{- end }}
             </div>
+            <a href="/tags/" title="标签" style="margin-right: 8px;">标签</a>
         </div>
         {{- $currentPage := . }}
-        <ul id="menu" style="margin-right: auto; margin-left: 30px;>
+        <ul id="menu">
             {{- range site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
             {{- $page_url:= $currentPage.Permalink | absLangURL }}
