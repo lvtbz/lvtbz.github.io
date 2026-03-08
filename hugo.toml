@@ -11,10 +11,5 @@ defaultTheme = "auto" # 自动跟随系统切换深色/浅色模式
 ShowReadingTime = true # 显示阅读需要几分钟
 ShowShareButtons = false # 显示分享按钮
 comments = true
-ShowPostTags = true
 
 ignoreFiles = ["\\.Archive\\/"]
-
-[taxonomies]
-tag = "tags"
-category = "categories"
