@@ -13,3 +13,9 @@ ShowShareButtons = false # 显示分享按钮
 comments = true
 
 ignoreFiles = ["\\.Archive\\/"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true  # 把这个设为 true
+      unsafe = true     # 顺便建议把这个打开，允许在文章里写原生 HTML
