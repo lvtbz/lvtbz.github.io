@@ -7,6 +7,7 @@ comments = true
 +++
 
 关于剧本身：
+
 3.15更新：
 
 6. 听党姐唱m16b的els[这段](75 【我相信草木生长有规律，日月星辰有归处 - 党韫葳 | 小红书 - 你的生活兴趣社区】 😆 qchAzsetvuJAmLW 😆 https://www.xiaohongshu.com/discovery/item/69b44027000000001a02eedc?source=webshare&xhsshare=pc_web&xsec_token=ABv0xYLcw7bgfiN6fR1NsX1xc4iCR8XYXhv22KSKuqdt4=&xsec_source=pc_share),突然听到了“看你举起火把走进夜幕，我站在原地，悄无声息”，这应该就是对5：meg回到老槐树下时els在哪里的回答吧？真的很难相信，我之前一直对这句“听而不闻”。主创真的把很多信息埋在了歌词里，而未在编排里体现。
