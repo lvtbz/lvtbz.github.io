@@ -2,7 +2,7 @@
 title = '一些有端联想'
 date = 2026-03-09T23:21:09+08:00
 draft = false
-tags = ["碎碎念","以后再说"]
+tags = ["碎碎念"]
 comments = true
 +++
 （一）
