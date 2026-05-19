@@ -17,5 +17,10 @@ ignoreFiles = ["\\.Archive\\/"]
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      hardWraps = true  # 把这个设为 true
-      unsafe = true     # 顺便建议把这个打开，允许在文章里写原生 HTML
+      hardWraps = true
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.config]
+          inline = [['\[\[', '\]\]']]
