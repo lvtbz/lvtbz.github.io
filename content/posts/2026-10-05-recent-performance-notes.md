@@ -1,6 +1,6 @@
 +++
 date = '2026-10-05'
-draft = true
+draft = false
 tags = ["碎碎念"]
 title = '近期看过的演出简记'
 +++
