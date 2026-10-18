@@ -3,6 +3,7 @@ date = '2026-04-25'
 draft = false
 tags = ["碎碎念", "以后再说"]
 title = '一个有趣的问题'
+comments = true
 +++
 看Susannah Clapp 2017年对《Hamilton》伦敦首演的[评论](https://www.theguardian.com/stage/2017/dec/24/hamilton-west-end-observer-review)，最后两段挺有意思的：她说，Miranda’s show asks "who lives, who dies, who tells your story?"，然后发问，英国是否也能产生像《Hamilton》这样"something as original and necessary"的作品，政府是否能花时间去支持和识别出这样的作品和其中隐藏的才华"would take time out to look at it, or recognise the talent if they did"
 
