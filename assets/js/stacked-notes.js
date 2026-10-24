@@ -131,6 +131,18 @@
     body.className = 'sn-body';
     body.appendChild(contentNode);
     col.append(spine, body);
+    if (cols.length) {
+      contentNode.querySelectorAll('.sn-comments-wrap').forEach((n) => n.remove());
+      const h = contentNode.querySelector('.post-title');
+      if (h) {
+        const link = document.createElement('a');
+        link.className = 'sn-title-link';
+        link.href = path;
+        link.title = '单独打开这篇';
+        while (h.firstChild) link.appendChild(h.firstChild);
+        h.appendChild(link);
+      }
+    }
     prepareContent(body);
     if (cols.length) {
       const close = document.createElement('button');
@@ -244,7 +256,7 @@
 
   function markOpenLinks() {
     const open = new Set(cols.map((c) => c.dataset.path));
-    document.querySelectorAll('.sn-stack a[href]').forEach((a) => {
+    document.querySelectorAll('.sn-stack a[href]:not(.sn-title-link)').forEach((a) => {
       const u = internalUrl(a);
       a.classList.toggle('sn-link-open', !!u && open.has(normPath(u.pathname)));
     });
