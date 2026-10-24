@@ -1,3 +1,4 @@
-{{- if and .IsPage (ne .Params.comments false) }}
-  {{- partial "comments.html" . }}
+{{- if .IsPage }}
+  {{- $js := resources.Get "js/stacked-notes.js" | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 {{- end }}
