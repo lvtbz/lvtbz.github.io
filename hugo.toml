@@ -24,3 +24,11 @@ ignoreFiles = ["\\.Archive\\/"]
         enable = true
         [markup.goldmark.extensions.passthrough.config]
           inline = [['\[\[', '\]\]']]
+
+# giscus comments (GitHub Discussions)
+[params.giscus]
+  repo = "lvtbz/lvtbz.github.io"
+  repoId = "R_kgDORgIa-Q"
+  category = "Announcements"
+  categoryId = "DIC_kwDORgIa-c4DJgb1"
+  lang = "zh-CN"

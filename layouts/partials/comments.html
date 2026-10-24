@@ -1,11 +1,15 @@
-<div style="margin-top: 40px; padding: 20px; border-top: 1px solid var(--border);">
-<div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="b56e4d25-96e2-4027-a930-40831caa6189"
-  data-page-id="{{ .RelPermalink }}"
-  data-page-url="{{ .Permalink }}"
-  data-page-title="{{ .Title }}"
-  data-theme="auto"
-></div>
+{{- with site.Params.giscus }}
+<div class="sn-comments-wrap">
+  <div class="sn-comments"
+    data-path="{{ $.RelPermalink }}"
+    data-repo="{{ .repo }}"
+    data-repo-id="{{ .repoId }}"
+    data-category="{{ .category }}"
+    data-category-id="{{ .categoryId }}"
+    data-lang="{{ .lang | default "zh-CN" }}">
+    {{- if not .repoId }}
+    <div class="sn-comments-placeholder">评论区（giscus）· {{ $.Title }}<br><small>待在仓库开启 Discussions 并安装 giscus 后生效</small></div>
+    {{- end }}
+  </div>
 </div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+{{- end }}
