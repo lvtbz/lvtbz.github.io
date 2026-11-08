@@ -1,0 +1,7 @@
+# 统一换行符：仓库内容一律 LF，检出也用 LF
+* text=auto eol=lf
+
+# Windows 批处理和 PowerShell 脚本按 CRLF 检出（cmd.exe 处理纯 LF 的 goto/label 不可靠）
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
